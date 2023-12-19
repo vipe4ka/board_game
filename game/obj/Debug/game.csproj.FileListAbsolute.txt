@@ -1,0 +1,15 @@
+C:\Users\anastasia\source\repos\4 курс\game\bin\Debug\game.exe.config
+C:\Users\anastasia\source\repos\4 курс\game\bin\Debug\game.exe
+C:\Users\anastasia\source\repos\4 курс\game\bin\Debug\game.pdb
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.csproj.AssemblyReference.cache
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.Form1.resources
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.Properties.Resources.resources
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.csproj.GenerateResource.cache
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.csproj.CoreCompileInputs.cache
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.exe
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.pdb
+C:\Users\anastasia\source\repos\4 курс\game\bin\Debug\game.exe.manifest
+C:\Users\anastasia\source\repos\4 курс\game\bin\Debug\game.application
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.TrustInfo.xml
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.exe.manifest
+C:\Users\anastasia\source\repos\4 курс\game\obj\Debug\game.application
