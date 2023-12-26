@@ -478,8 +478,8 @@ namespace game
                     clerkMoves--;
                 }
                 // меняем координаты
-                else if ((r * TILE_SIZE == clerk_y && Math.Abs(c * TILE_SIZE - clerk_x) < (3 * TILE_SIZE) && Math.Abs(c * TILE_SIZE - clerk_x) > 0) ||
-                    (c * TILE_SIZE == clerk_x && Math.Abs(r * TILE_SIZE - clerk_y) < (3 * TILE_SIZE) && Math.Abs(r * TILE_SIZE - clerk_y) > 0))
+                else if (r * TILE_SIZE == clerk_y && Math.Abs(c * TILE_SIZE - clerk_x) == TILE_SIZE && Math.Abs(c * TILE_SIZE - clerk_x) > 0 || 
+                    (c * TILE_SIZE == clerk_x && Math.Abs(r * TILE_SIZE - clerk_y) == TILE_SIZE && Math.Abs(r * TILE_SIZE - clerk_y) > 0))
                 {
                     if (firewallX == r && firewallY == c)
                         MessageBox.Show("Тут стоит ФАЕРВОЛЛ!!!");
