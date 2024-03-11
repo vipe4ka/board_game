@@ -130,7 +130,7 @@ namespace game
         List<string> tasksHacker = new List<string>
         {
             @"Внедрить вредоносные скрипты в сайты",
-            @"Распространить вредоносного ПО через спам",
+            @"Распространить вредоносное ПО через спам",
             @"Украсть корпоративные данные из таблиц",
             @"Отправка фишинговых писем через почту",
             @"Закинуть файл с вредоносным макросом в Word",
@@ -502,15 +502,18 @@ namespace game
                             case "ddos":
                                 MessageBox.Show("ДУДОС! Клерк пропускает следующий ход");
                                 ddos = true;
+                                isVisited_byHacker[r, c] = "1";
                                 break;
                             case "fishing":
                                 MessageBox.Show("ФИШИНГ! Клерк теряет все байты");
                                 bytes = 0;
+                                isVisited_byHacker[r, c] = "1";
                                 break;
                             case "supplychain":
                                 MessageBox.Show("Атака на цепочку поставок данных. Клерк теряет одну карту");
                                 var rand = new Random();
                                 clerkCards_Hand.RemoveAt(rand.Next(clerkCards_Hand.Count));
+                                isVisited_byHacker[r, c] = "1";
                                 break;
                             case "sqlink":
                                 MessageBox.Show("SQL-инъекция. Клерк теперь играет в открытую");
